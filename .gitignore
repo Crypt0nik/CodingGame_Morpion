@@ -1,0 +1,39 @@
+# Fichiers compilés Java
+*.class
+
+# Fichiers de packages
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Fichiers de debug virtuels JVM
+hs_err_pid*
+replay_pid*
+
+# Dossiers IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Build directories (optionnel, commenter si vous voulez garder bin/)
+# bin/
