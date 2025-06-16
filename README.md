@@ -44,7 +44,7 @@ Le projet est composé de trois parties principales :
 ### Compilation
 ```bash
 # Rendre les scripts exécutables (sur Unix/Linux/macOS)
-chmod +x compile.sh run_server.sh run_client.sh run_client_modern.sh
+chmod +x compile.sh run_server_modern.sh run_client.sh run_client_modern.sh
 
 # Compiler le projet
 ./compile.sh
@@ -55,7 +55,7 @@ chmod +x compile.sh run_server.sh run_client.sh run_client_modern.sh
 #### Interface Classique
 1. **Démarrer le serveur** :
 ```bash
-./run_server.sh
+./run_server_modern.sh
 ```
 
 2. **Lancer les clients** (dans des terminaux séparés) :
@@ -66,7 +66,7 @@ chmod +x compile.sh run_server.sh run_client.sh run_client_modern.sh
 #### 🎨 Interface Moderne (NOUVEAU!)
 1. **Démarrer le serveur** :
 ```bash
-./run_server.sh
+./run_server_modern.sh
 ```
 
 2. **Lancer les clients modernes** :
