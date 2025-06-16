@@ -147,10 +147,37 @@ README.md                     # Documentation
 - **Interface graphique Swing** : Interface utilisateur native
 - **Gestion d'erreurs** : Gestion robuste des déconnexions et erreurs réseau
 
+## 📚 Documentation
+
+- 📋 **[RAPPORT_TECHNIQUE.md](RAPPORT_TECHNIQUE.md)** - Analyse complète de l'architecture
+- 🧪 **[GUIDE_TESTS.md](GUIDE_TESTS.md)** - Guide de tests et validation
+- 🚀 **[QUICKSTART.md](QUICKSTART.md)** - Guide de démarrage rapide
+
+## 🧪 Tests
+
+### Test automatique du système
+```bash
+./test_system.sh
+```
+
+### Tests manuels
+Consultez le [Guide de tests](GUIDE_TESTS.md) pour les procédures détaillées.
+
+## 📊 Rapport Technique
+
+Le projet comprend une documentation technique complète couvrant :
+- 🏗️ **Architecture** client-serveur détaillée
+- 📡 **Protocole de communication** et sérialisation
+- ⚔️ **Gestion des conflits** et validation
+- 🔄 **Synchronisation** de l'état de jeu
+- 🧪 **Cas d'utilisation** et tests de validation
+
+Voir [RAPPORT_TECHNIQUE.md](RAPPORT_TECHNIQUE.md) pour tous les détails.
+
 ## Configuration
 
 Par défaut, le serveur utilise :
-- **Host** : localhost
+- **Host** : localhost  
 - **Port** : 12345
 
 Pour modifier ces paramètres, éditez les constantes dans les fichiers correspondants.
